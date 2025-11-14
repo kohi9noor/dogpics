@@ -9,35 +9,41 @@ const AboutMe = () => {
   return (
     <div className="flex flex-col space-y-4 ">
       <p className="text-sm leading-6.5">
-        Hello, I&apos;m Kohinoor. A <strong>Software Engineer</strong>.
-        You&apos;re probably thinking:{" "}
-        <em>&quot;why the f*** did you build this site?&quot; </em>
-        Honestly, I asked myself the same thing and never found a satisfying
-        answer. But maybe that&apos;s the whole beauty of it, isn&apos;t it?
+        Hey, I&apos;m Kohinoor. <strong>Software Engineer</strong>.
         <br />
-        <br />I started this as a <strong>weekend project</strong>. After
-        getting all the functionality working, I left it because I didn&apos;t
-        want to deploy it—I didn&apos;t have the money to pay for{" "}
-        <strong>AWS</strong>. But then I realised I couldn&apos;t just leave it
-        unfinished for the public. One day, a <strong>holy dog</strong> appeared
-        in my dream and said,{" "}
+        <br />
+        <strong>probably thinking:</strong>
+        <em>&quot;Why the f*** did you build this site?&quot;</em> Honestly, no
+        clue. Still don&apos;t. <strong>Maybe that&apos;s the point.</strong>
+        <br />
+        <br />
+        Started as a <strong>weekend project</strong>. Got it working, then
+        abandoned it. Couldn&apos;t afford AWS, too lazy for servers.
+        <br />
+        <br />
+        Then a <strong>holy dog</strong> appeared in my dream:{" "}
+        <em>&quot;Finish it.&quot;</em>
+        <br />
+        So here we are.
+        <br />
+        <br />
+        Used an external API back then. Last two months? Learned{" "}
         <strong>
-          You can&apos;t leave the project without deploying it for public use.
+          SSL, Nginx, DNS, caching, scraping, PM2, reverse proxies
         </strong>
-        <br /> <br />
-        So right now, I&apos;m using an external API. but I plan to manage my
-        own <strong>server</strong> this month—just learning and setting up some
-        stuff for now. But hey, give me some credit—the{" "}
-        <strong>site is still working!</strong>
+        . Accidentally became the infrastructure guy.
+        <br />
+        <br />
+        Now running my own setup with <strong>18,000+ dog images</strong>. Low
+        latency, no CDN {"(Will setup soon)"}, fast. Too fun to stop.
+        <br />
       </p>
       <p className="text-sm leading-6.5">
-        A little more about me: I&apos;m a 2nd-year B.Tech student, always
-        curious about weird projects and random ideas. I like exploring new tech
-        and building stuff that makes people smile (or say &quot;wtf&quot;).
+        2nd-year B.Tech student. Build weird things. Always learning, always
+        curious.
       </p>
       <strong className="text-sm leading-6.5">
-        Do you have any questions or want to collaborate on a project or hire
-        me? Feel free to reach out!
+        Got questions? Wanna collaborate? Hit me up.
       </strong>
       <div
         onClick={() => {

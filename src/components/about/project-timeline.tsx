@@ -11,7 +11,7 @@ const TimelineItem = ({
 }) => (
   <div className="relative pl-5 pb-5">
     <div className="absolute left-0 top-0 bottom-0 w-px bg-zinc-300 dark:bg-zinc-700"></div>
-    <div className="absolute left-0 top-1.5 w-2 h-2 rounded-full bg-zinc-400 dark:bg-zinc-500 -translate-x-1/2"></div>
+    <div className="absolute left-0 top-0 w-2 h-2 rounded-full bg-zinc-400 dark:bg-zinc-500 -translate-x-1/2"></div>
     <div className="flex flex-col">
       <span className="text-xs text-zinc-500 dark:text-zinc-400 font-mono">
         {date}
@@ -69,7 +69,7 @@ const ProjectTimeline = () => {
       />
 
       <TimelineItem
-        date="Present"
+        date="19 August, 2025"
         title="Infrastructure & Deployment"
         description={
           <>
@@ -77,6 +77,37 @@ const ProjectTimeline = () => {
             deployment options instead of expensive AWS EC2 instances. Working
             on setting up my own infrastructure to keep the project running
             without burning through my budget.
+          </>
+        }
+      />
+
+      <TimelineItem
+        date="15 Nov, 2025"
+        title="Built My Own Infrastructure"
+        description={
+          <>
+            Learned and implemented{" "}
+            <strong>
+              SSL, Nginx, DNS, caching, scraping, PM2, and reverse proxies
+            </strong>
+            . Set up a small, efficient infrastructure from scratch. Scraped and
+            built a catalog of <strong>18,000+ dog images</strong> from multiple
+            sources. Now running the entire project on custom infrastructure
+            with low latency and no CDN dependency.
+          </>
+        }
+      />
+
+      <TimelineItem
+        date="Ongoing"
+        title="Keeping It Alive Forever"
+        description={
+          <>
+            This project is now self-sustaining. No external APIs, no AWS bills.
+            Just me, my infrastructure, and thousands of dog photos.
+            Continuously learning and improving. This isn&apos;t a weekend
+            project anymore — it&apos;s something I built and I&apos;m keeping
+            it running indefinitely.
           </>
         }
       />
