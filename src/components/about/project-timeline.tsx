@@ -83,17 +83,18 @@ const ProjectTimeline = () => {
 
       <TimelineItem
         date="15 Nov, 2025"
-        title="Built My Own Infrastructure"
+        title="Built Small Infra"
         description={
           <>
             Learned and implemented{" "}
             <strong>
-              SSL, Nginx, DNS, caching, scraping, PM2, and reverse proxies
+              SSL, Nginx, DNS, caching, scraping, PM2, and reverse proxies,
+              jenkins
             </strong>
             . Set up a small, efficient infrastructure from scratch. Scraped and
             built a catalog of <strong>18,000+ dog images</strong> from multiple
             sources. Now running the entire project on custom infrastructure
-            with low latency and no CDN dependency.
+            with super low latency.
           </>
         }
       />
