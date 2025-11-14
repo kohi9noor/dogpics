@@ -29,18 +29,19 @@ const AboutMe = () => {
         <br />
         Used an external API back then. Last two months? Learned{" "}
         <strong>
-          SSL, Nginx, DNS, caching, scraping, PM2, reverse proxies
+          SSL, Nginx, DNS, caching, scraping, PM2, reverse proxies, cloudflare
+          cdn.{" "}
         </strong>
-        . Accidentally became the infrastructure guy.
+        Accidentally became the infrastructure guy.
         <br />
         <br />
-        Now running my own setup with <strong>18,000+ dog images</strong>. Low
-        latency, no CDN {"(Will setup soon)"}, fast. Too fun to stop.
+        Now running my own setup with <strong>18,000+ dog images</strong>{" "}
+        {"(scraped :))"}. Low latency, fast. Too fun to stop.
         <br />
       </p>
       <p className="text-sm leading-6.5">
-        2nd-year B.Tech student. Build weird things. Always learning, always
-        curious.
+        Little more about me: 2nd-year B.Tech student. Build weird things.
+        Always learning, always curious.
       </p>
       <strong className="text-sm leading-6.5">
         Got questions? Wanna collaborate? Hit me up.

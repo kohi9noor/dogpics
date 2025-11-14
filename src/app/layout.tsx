@@ -45,6 +45,16 @@ export const metadata: Metadata = {
       "Take a break and refresh your mind with a curated collection of adorable dog photos.",
     images: ["https://dogpics.lol/og-image.png"],
   },
+  icons: {
+    icon: [
+      {
+        url: "/favicon_io/favicon.ico",
+        sizes: "any",
+      },
+
+      { url: "/favicon.png", type: "image/png" },
+    ],
+  },
 };
 
 export default function RootLayout({
