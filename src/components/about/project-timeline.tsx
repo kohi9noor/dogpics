@@ -83,7 +83,7 @@ const ProjectTimeline = () => {
 
       <TimelineItem
         date="15 Nov, 2025"
-        title="Built Small Infra"
+        title="Built Small infrastructure"
         description={
           <>
             Learned and implemented{" "}
