@@ -74,7 +74,7 @@ const Page = () => {
         formData.append("image", selectedFile);
       }
       const response = await axios.post(
-        "https://app.dogpix.lol/api/images/upload",
+        "https://api.dogpix.lol/api/images/upload",
         formData
       );
 

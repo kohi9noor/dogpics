@@ -112,7 +112,7 @@ export const AppProvider = ({ children }: { children: React.ReactNode }) => {
   }, [current, favorites]);
   const fetchImage = useCallback(async (): Promise<string> => {
     const response = await axios.get(
-      `https://app.dogpix.lol/api/images/random?t=${Date.now()}`,
+      `https://api.dogpix.lol/api/images/random?t=${Date.now()}`,
       { responseType: "arraybuffer" }
     );
 
